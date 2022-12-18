@@ -4,6 +4,7 @@ public class MaximumMain {
     public static void main(String[] args) {
         findingMaxInteger();
         findingMaxFloat();
+        findingMaxString();
 
     }
     private static void findingMaxInteger() {
@@ -35,6 +36,25 @@ public class MaximumMain {
             System.out.println(num1 +"is greater than" + num2 + "and" + num3);
         }
     }
+    private static void findingMaxString() {
+        System.out.println("\n Finding max String.........");
+
+        String string1="Apple", string2="Peach",string3="Banana";
+        ;
+
+        //String string2="peavvggbb";
+        // String string3="dfgbbb";
+        if((string3.compareTo(string2)>0)&&(string3.compareTo(string1)>0)){
+            System.out.println(string3 + "is greater than" + string2 + "and" + string1);
+        }
+        else if((string2.compareTo(string1)>0)&&(string2.compareTo(string3)>0)){
+            System.out.println(string2 + " is greater than" + string1 + "and" + string3);
+        }
+        else if((string1.compareTo(string2)>0)&&(string1.compareTo(string3)>0)){
+            System.out.println(string1 +"is greater than" + string2 + "and" + string3);
+        }
+    }
+
 
 
 }
