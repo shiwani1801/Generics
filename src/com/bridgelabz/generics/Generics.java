@@ -8,7 +8,6 @@ public class Generics <T extends Comparable<T>> {
     T firstValue;
      T secondValue;
      T thirdValue;
-     T fourthValue;
 
      public void Generics(T firstValue, T secondValue, T thirdValue) {
          this.firstValue = firstValue;
