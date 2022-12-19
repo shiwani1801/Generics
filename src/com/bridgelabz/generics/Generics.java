@@ -5,7 +5,17 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Generics <T extends Comparable<T>> {
+    T firstValue;
+     T secondValue;
+     T thirdValue;
+     T fourthValue;
 
+     public void Generics(T firstValue, T secondValue, T thirdValue) {
+         this.firstValue = firstValue;
+      this.secondValue = secondValue;
+      this.thirdValue = thirdValue;
+
+     }
 
     public <T extends Comparable> Object compare(T firstValue, T secondValue, T thirdValue) {
         ArrayList <T>arrayList=new ArrayList<T>();
